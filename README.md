@@ -8,13 +8,13 @@ In this project, I conducted a comprehensive analysis of Amazon product data, fo
 
 ## Questions
 
-* What are the top selling_products that have the highest sales?
+* What are the top-selling products that have the highest sales?
 
 * Which products generate the most profit?
 
 * Are there specific products with unusually high or low ratings?
 
-* Is there a correlation between product profit and discount percentage? Is there a correlation between discount_price and discount_percentage?
+* What is the correlation between product profit and discount percentage?
 
 
 
@@ -32,7 +32,6 @@ In this project, I conducted a comprehensive analysis of Amazon product data, fo
 - Selected key columns for analysis, including product, main_category, sub_category, ratings,	discount_price,	actual_price, discount_percentage and profit, while dropping irrelevant columns like image, link, no_of_ratings.
 
 - Creating new features like discount_percentage and profit to provide more detailed insights into the impact of discount_percentage on sales and profit.
-
 
 * Data Transformation:
  - Grouping Numerical Columns: Grouping numerical columns like Age and Previous Purchases into meaningful bins (e.g., age groups like "18-25"...) to make the data easier to analyze and interpret.
@@ -100,15 +99,14 @@ After installing VSC and the Jupyter extension, you need to install Jupyter Note
 5. Run the .ipynb file:
 Open and execute the following file for analysis:
 
-* Baby_Products.ipynb
+* Amazon_Baby_Products.ipynb
 
-## I will be presenting a Tableau dashboard to analyze Baby_Products. This interactive visualization provides clear and dynamic insights into sales patterns and profitability.
+## I will be presenting a Tableau dashboard to analyze Baby Products. This interactive visualization provides clear and dynamic insights into sales patterns and profitability.
 
-* Explore sales trends for top product and categories.
+* Best products by actual price.
 
-* Analyze Baby Products profitability
-
-[Click on the link](https://public.tableau.com/views/RetailSalesandCustomerShoppingTrends/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+* Top-selling baby products by ratings
+[Click on the link] (https://public.tableau.com/app/profile/jamila.arabat/viz/AnalyzeAmazonbabyproductsperformance/Dashboard1)
 
 ## Conclusion
 
